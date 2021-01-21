@@ -8,14 +8,16 @@ body{
     text-align:center;
     padding:0;
     margin:0;
+    position: fixed;
     }
     .nav li{
         display:inline-block;
+        
     }
     .nav a{
         text-decoration: none;
         color:white;
-        width:100px;
+        width:90px;
         display:block;
         padding:20px;
         font-size:20px;
@@ -36,23 +38,7 @@ body{
     margin-right: 3%;
 }
 
-/* .faz{
-    background-image: url("/my\ home\ image.png");
-    width: 100%;
-    height: 90vh;
-    background-size: cover;
-} */
-/* .naz{
-    display: flex;
-} */
-/* .about p{
-    text-align:right;
-} */
-/* aside{
-    float: right;
-    width: 50%;
-    font-family: 'Courier New', Courier, monospace;
-} */
+
 .p1{
     padding-right: 100%;
 }
@@ -60,10 +46,6 @@ h2{
     text-align: center;
     float:center;
 }
-/* #skills{
-    float: right;
-    padding-right:50%;
-} */
 
 #education{
     text-align: center;
@@ -76,9 +58,7 @@ h2{
     margin-left: 150px;
     align-content:center;
 }
-/* .word p{
-    font-size:18px;
-} */
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(207, 171, 171, 0.2);
     transition: 0.3s;
